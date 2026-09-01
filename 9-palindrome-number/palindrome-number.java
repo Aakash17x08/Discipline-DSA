@@ -3,7 +3,7 @@ class Solution {
         if(n < 0) return false;
         int rev = 0;
         int x = n;
-        while(x > 0){
+        while(x != 0){
 
             int lastnum = x % 10;
             x /= 10;
